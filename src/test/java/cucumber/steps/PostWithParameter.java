@@ -30,17 +30,17 @@ public class PostWithParameter {
 
     @And("^Click on the Post button$")
     public void click_on_the_post_button() throws Throwable {
-        System.out.println("44444");
+        System.out.println("1111");
     }
 
     @And("^Click on the okay button$")
     public void click_on_the_okay_button() throws Throwable {
-        System.out.println("55555");
+        System.out.println("11111");
     }
 
 
     @When("I on the given {string} link")
     public void iOnTheGivenLink(String arg0) {
-        System.out.println(66666);
+        System.out.println("11111");
     }
 }
